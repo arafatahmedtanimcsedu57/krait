@@ -1,0 +1,507 @@
+<svg width="1282" height="866" viewBox="0 0 1282 866" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <filter id="filter0_f_7615_14813" x="133.498" y="0.498474" width="1100" height="865.003" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feGaussianBlur stdDeviation="107.751" result="effect1_foregroundBlur_7615_14813"/>
+    </filter>
+    <filter id="filter1_f_7615_14813" x="-450.502" y="30.4985" width="1100.03" height="1047.6" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feGaussianBlur stdDeviation="107.751" result="effect1_foregroundBlur_7615_14813"/>
+    </filter>
+    <linearGradient id="paint0_linear_7615_14813" x1="23" y1="258" x2="1282" y2="438" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#2F1701"/>
+        <stop offset="1" stop-color="#443201"/>
+    </linearGradient>
+    <radialGradient id="paint1_radial_7615_14813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(31.1725 655.168) rotate(90) scale(47.5362 47.9684)">
+        <stop stop-color="#C5A929"/>
+        <stop offset="1" stop-color="#56440D"/>
+    </radialGradient>
+    <radialGradient id="paint2_radial_7615_14813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1037.82 655.168) rotate(90) scale(47.5362 47.9684)">
+        <stop stop-color="#C5A929"/>
+        <stop offset="1" stop-color="#56440D"/>
+    </radialGradient>
+    <radialGradient id="paint3_radial_7615_14813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(155.326 655.168) rotate(90) scale(47.5362 47.9684)">
+        <stop stop-color="#C5A929"/>
+        <stop offset="1" stop-color="#56440D"/>
+    </radialGradient>
+    <radialGradient id="paint4_radial_7615_14813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(653.058 558.977) rotate(90) scale(47.5362 47.9684)">
+        <stop stop-color="#C5A929"/>
+        <stop offset="1" stop-color="#56440D"/>
+    </radialGradient>
+    <linearGradient id="paint5_linear_7615_14813" x1="229.706" y1="621.612" x2="23.3431" y2="621.612" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FDE047"/>
+        <stop offset="1" stop-color="#FDE047" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint6_linear_7615_14813" x1="123.448" y1="577.991" x2="-82.9147" y2="577.991" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FDE047"/>
+        <stop offset="1" stop-color="#FDE047" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="paint7_radial_7615_14813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1407.98 342.797) rotate(90) scale(47.5362 47.9684)">
+        <stop stop-color="#C5A929"/>
+        <stop offset="1" stop-color="#56440D"/>
+    </radialGradient>
+    <radialGradient id="paint8_radial_7615_14813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(401.331 342.797) rotate(90) scale(47.5362 47.9684)">
+        <stop stop-color="#C5A929"/>
+        <stop offset="1" stop-color="#56440D"/>
+    </radialGradient>
+    <radialGradient id="paint9_radial_7615_14813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1283.83 342.797) rotate(90) scale(47.5362 47.9684)">
+        <stop stop-color="#C5A929"/>
+        <stop offset="1" stop-color="#56440D"/>
+    </radialGradient>
+    <radialGradient id="paint10_radial_7615_14813" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(786.095 438.987) rotate(90) scale(47.5362 47.9684)">
+        <stop stop-color="#C5A929"/>
+        <stop offset="1" stop-color="#56440D"/>
+    </radialGradient>
+    <linearGradient id="paint11_linear_7615_14813" x1="1085.29" y1="253.318" x2="1291.66" y2="253.318" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FDE047"/>
+        <stop offset="1" stop-color="#FDE047" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint12_linear_7615_14813" x1="1191.55" y1="296.939" x2="1397.91" y2="296.939" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FDE047"/>
+        <stop offset="1" stop-color="#FDE047" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="paint13_linear_7615_14813" x1="641" y1="258" x2="641" y2="618" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FACC15"/>
+        <stop offset="1" stop-color="white"/>
+    </linearGradient>
+    <clipPath id="clip0_7615_14813">
+        <path d="M0 286C0 270.536 12.536 258 28 258H1254C1269.46 258 1282 270.536 1282 286V590C1282 605.464 1269.46 618 1254 618H28C12.536 618 0 605.464 0 590V286Z" fill="white"/>
+    </clipPath>
+    <clipPath id="clip1_7615_14813">
+        <rect width="1293" height="366" fill="white" transform="translate(-5 255)"/>
+    </clipPath>
+    <style type="text/css">
+            <![CDATA[
+                @keyframes drawLine {
+                    from { stroke-dashoffset: 1000; } /* Start with the line 'hidden' in the gap */
+                    to { stroke-dashoffset: -1000; } /* Move the dash across and off the path */
+                }
+
+                .animated-line {
+                    stroke-dasharray: 1000 1000; /* Long dash, long gap */
+                    animation: drawLine 6s linear infinite; /* Adjust duration (6s) for speed */
+                }
+
+                /* Add delays for different lines to make them appear asynchronous */
+                .line-delay-1 { animation-delay: 0.5s; }
+                .line-delay-2 { animation-delay: 1.5s; }
+                .line-delay-3 { animation-delay: 2.5s; }
+                .line-delay-4 { animation-delay: 3.5s; }
+                /* Add more delay classes if needed */
+
+            ]]>
+    </style>
+</defs>
+<g opacity="0.5" filter="url(#filter0_f_7615_14813)">
+    <path d="M907.472 600.836C907.472 667.017 852.006 634.801 757.985 634.801C663.964 634.801 349 680.217 349 614.037C349 547.856 896.456 216 990.477 216C1084.5 216 907.472 534.656 907.472 600.836Z" fill="#FACC15"/>
+</g>
+<g clip-path="url(#clip0_7615_14813)">
+    <path d="M0 286C0 270.536 12.536 258 28 258H1254C1269.46 258 1282 270.536 1282 286V590C1282 605.464 1269.46 618 1254 618H28C12.536 618 0 605.464 0 590V286Z" fill="url(#paint0_linear_7615_14813)"/>
+    <g opacity="0.3" clip-path="url(#clip1_7615_14813)">
+        <path d="M392.229 554.021H402.379V564.075H392.229V554.021Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -2,4; 3,-3; 0,0" dur="11s" begin="0.2s" repeatCount="indefinite"/>
+        </path>
+        <path d="M392.229 595.644H402.379V605.698H392.229V595.644Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 4,3; -5,-2; 0,0" dur="13s" begin="1.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M389.419 591.263V582.328H380.387V591.263H389.419Z" stroke="#F87171" stroke-width="1.1185" class="animated-line line-delay-1"/>
+        <path d="M367.428 540.147H377.578V550.201H367.428V540.147Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 2,-6; -4, 2; 1,1; 0,0" dur="14s" begin="0.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M367.428 595.644H377.578V605.698H367.428V595.644Z" fill="#EF4444" fill-opacity="0.5">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -6, -2; 7, 3; 0,0" dur="5s" begin="0.3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M355.026 609.517H365.177V619.571H355.026V609.517Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 8,-3; -2, -4; 4, 1; 0,0" dur="6s" begin="2.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M342.627 581.769H352.777V591.823H342.627V581.769Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M330.226 526.272H340.376V536.326H330.226V526.272Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M339.817 563.515V554.58H330.785V563.515H339.817Z" stroke="#FDE047" stroke-opacity="0.5" stroke-width="1.1185" class="animated-line line-delay-2"/>
+        <path d="M330.226 595.644H340.376V605.698H330.226V595.644Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 5,-1; -2, 6; 0,0" dur="10s" begin="3.3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M305.425 595.644H315.575V605.698H305.425V595.644Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M255.819 567.896H265.97V577.95H255.819V567.896Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M243.419 595.644H253.569V605.698H243.419V595.644Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M243.419 609.517H253.569V619.571H243.419V609.517Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -4,-6; 8, 1; -2,-3; 0,0" dur="7s" begin="1.2s" repeatCount="indefinite"/>
+        </path>
+        <path d="M231.018 554.021H241.168V564.075H231.018V554.021Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M231.018 581.769H241.168V591.823H231.018V581.769Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -1,6; 4,-4; 0,0" dur="15s" begin="1.1s" repeatCount="indefinite"/>
+        </path>
+        <path d="M218.617 595.644H228.768V605.698H218.617V595.644Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M156.614 581.769H166.765V591.823H156.614V581.769Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 2,5; -6, 1; 3,-2; 0,0" dur="12s" begin="4.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M119.412 567.896H129.562V577.95H119.412V567.896Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M107.012 512.398H117.162V522.452H107.012V512.398Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M94.6114 554.021H104.762V564.075H94.6114V554.021Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 4,-4; -2, 6; 0,0" dur="8s" begin="0.9s" repeatCount="indefinite"/>
+        </path>
+        <path d="M57.4092 540.147H67.5596V550.201H57.4092V540.147Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 7, -2; -5, 6; 3, -1; 0,0" dur="6s" begin="3.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M20.2042 512.398H30.3545V522.452H20.2042V512.398Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M7.80377 554.021H17.9541V564.075H7.80377V554.021Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M7.80377 581.769H17.9541V591.823H7.80377V581.769Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -5,1; 3,-5; 0,0" dur="14s" begin="2.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M-4.59662 526.272H5.55371V536.326H-4.59662V526.272Z" fill="#FACC15" fill-opacity="0.3"/>
+        <mask id="mask0_7615_14813" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-30" y="595" width="122" height="122">
+            <path d="M44.6173 595.888H54.7676V605.942H44.6173V595.888Z" fill="#FACC15"/>
+            <path d="M19.8155 595.888H29.9658V605.942H19.8155V595.888Z" fill="#FACC15"/>
+            <path d="M19.8155 609.762H29.9658V619.816H19.8155V609.762Z" fill="#FACC15"/>
+            <path d="M-4.98526 609.762H5.16504V619.816H-4.98526V609.762Z" fill="#FACC15"/>
+        </mask>
+        <g mask="url(#mask0_7615_14813)">
+            <rect x="-30.9043" y="593.65" width="124.153" height="123.035" fill="url(#paint1_radial_7615_14813)"/>
+        </g>
+        <path d="M886.13 563.116V554.18H877.098V563.116H886.13Z" stroke="#F87171" stroke-width="1.1185" class="animated-line line-delay-3"/>
+        <path d="M876.539 595.245H886.689V605.299H876.539V595.245Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 3,6; -2,-4; 1, -1; 0,0" dur="10s" begin="0.1s" repeatCount="indefinite"/>
+        </path>
+        <path d="M864.139 581.37H874.289V591.424H864.139V581.37Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -7, 2; 5, -4; -1, 3; 0,0" dur="5s" begin="2.9s" repeatCount="indefinite"/>
+        </path>
+        <path d="M851.738 539.748H861.889V549.802H851.738V539.748Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M851.738 595.245H861.889V605.299H851.738V595.245Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M839.337 609.118H849.487V619.172H839.337V609.118Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M826.938 581.37H837.088V591.424H826.938V581.37Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M814.536 525.874H824.687V535.928H814.536V525.874Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M814.536 553.621H824.687V563.675H814.536V553.621Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -5,-2; 3, 4; 0,0" dur="13s" begin="3.9s" repeatCount="indefinite"/>
+        </path>
+        <path d="M814.536 595.245H824.687V605.299H814.536V595.245Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M789.734 595.245H799.885V605.299H789.734V595.245Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M749.721 576.992V568.056H740.689V576.992H749.721Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-4"/>
+        <path d="M727.73 595.245H737.88V605.299H727.73V595.245Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 1,-6; -4, 2; 2,3; 0,0" dur="11s" begin="0.7s" repeatCount="indefinite"/>
+        </path>
+        <path d="M727.73 609.118H737.88V619.172H727.73V609.118Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M715.328 553.621H725.479V563.675H715.328V553.621Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 6,-4; -3, 8; 0,0" dur="7s" begin="1.4s" repeatCount="indefinite"/>
+        </path>
+        <path d="M715.328 581.37H725.479V591.424H715.328V581.37Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M588.513 563.116V554.18H579.481V563.116H588.513Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-1"/>
+        <path d="M578.922 581.37H589.072V591.424H578.922V581.37Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M554.121 595.245H564.271V605.299H554.121V595.245Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M541.72 539.748H551.87V549.802H541.72V539.748Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -8, 2; 4, -6; 1, 1; 0,0" dur="4s" begin="4.1s" repeatCount="indefinite"/>
+        </path>
+        <path d="M541.72 595.245H551.87V605.299H541.72V595.245Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M541.72 609.118H551.87V619.172H541.72V609.118Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M529.316 609.118H539.467V619.172H529.316V609.118Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -3,5; 2,-6; 4,1; 0,0" dur="16s" begin="0.4s" repeatCount="indefinite"/>
+        </path>
+        <path d="M514.106 521.495V512.559H505.074V521.495H514.106Z" stroke="#FDE047" stroke-opacity="0.5" stroke-width="1.1185" class="animated-line line-delay-2"/>
+        <path d="M504.515 595.245H514.665V605.299H504.515V595.245Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M492.114 553.621H502.265V563.675H492.114V553.621Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M492.114 581.37H502.265V591.424H492.114V581.37Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M479.714 525.874H489.864V535.928H479.714V525.874Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 7,-5; -3, 2; 5,-1; 0,0" dur="8s" begin="2.7s" repeatCount="indefinite"/>
+        </path>
+        <path d="M489.305 604.74V595.804H480.273V604.74H489.305Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-3"/>
+        <path d="M479.714 609.118H489.864V619.172H479.714V609.118Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M467.314 539.748H477.464V549.802H467.314V539.748Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M467.314 567.497H477.464V577.551H467.314V567.497Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M454.912 581.37H465.062V591.424H454.912V581.37Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 6,1; -4,-5; 2, 2; 0,0" dur="9s" begin="5.2s" repeatCount="indefinite"/>
+        </path>
+        <path d="M454.912 595.245H465.062V605.299H454.912V595.245Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M442.512 581.37H452.662V591.424H442.512V581.37Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -7,-1; 3, 6; 0,0" dur="4s" begin="0.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M430.111 595.245H440.262V605.299H430.111V595.245Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M430.111 609.118H440.262V619.172H430.111V609.118Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M417.71 539.748H427.86V549.802H417.71V539.748Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1274.04 595.644H1284.2V605.698H1274.04V595.644Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1224.44 567.896H1234.59V577.95H1224.44V567.896Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -2,5; 4,-3; 1,-1; 0,0" dur="12s" begin="1.7s" repeatCount="indefinite"/>
+        </path>
+        <path d="M1212.04 595.644H1222.19V605.698H1212.04V595.644Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 5,5; -3, -7; 0,0" dur="6s" begin="4.9s" repeatCount="indefinite"/>
+        </path>
+        <path d="M1212.04 609.517H1222.19V619.571H1212.04V609.517Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1199.64 554.021H1209.79V564.075H1199.64V554.021Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1199.64 581.769H1209.79V591.823H1199.64V581.769Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1187.24 595.644H1197.39V605.698H1187.24V595.644Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -1, 7; 6, -4; -3,-2; 0,0" dur="8s" begin="3.4s" repeatCount="indefinite"/>
+        </path>
+        <path d="M1137.64 595.644H1147.79V605.698H1137.64V595.644Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1134.83 591.263V582.328H1125.79V591.263H1134.83Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-4"/>
+        <path d="M1112.83 595.644H1122.98V605.698H1112.83V595.644Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1112.83 609.517H1122.98V619.571H1112.83V609.517Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1100.43 540.147H1110.58V550.201H1100.43V540.147Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1088.03 567.896H1098.18V577.95H1088.03V567.896Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 3,-6; -1, 4; 5,-2; 0,0" dur="13s" begin="2.2s" repeatCount="indefinite"/>
+        </path>
+        <path d="M1075.63 512.398H1085.78V522.452H1075.63V512.398Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1063.23 554.021H1073.38V564.075H1063.23V554.021Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1063.23 581.769H1073.38V591.823H1063.23V581.769Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1026.03 540.147H1036.18V550.201H1026.03V540.147Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M998.416 521.893V512.958H989.385V521.893H998.416Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-1"/>
+        <path d="M976.425 554.021H986.575V564.075H976.425V554.021Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 7, 4; -6, -3; 2, 5; 0,0" dur="5s" begin="1.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M976.425 581.769H986.575V591.823H976.425V581.769Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -4,3; 6,-1; -2,-4; 0,0" dur="10s" begin="0.6s" repeatCount="indefinite"/>
+        </path>
+        <mask id="mask1_7615_14813" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="976" y="595" width="123" height="122">
+            <path d="M1051.27 595.888H1061.42V605.942H1051.27V595.888Z" fill="#FACC15"/>
+            <path d="M1026.47 595.888H1036.62V605.942H1026.47V595.888Z" fill="#FACC15"/>
+            <path d="M1026.47 609.762H1036.62V619.816H1026.47V609.762Z" fill="#FACC15"/>
+            <path d="M1001.66 609.762H1011.81V619.816H1001.66V609.762Z" fill="#FACC15"/>
+            <path d="M989.263 609.762H999.414V619.816H989.263V609.762Z" fill="#FACC15"/>
+        </mask>
+        <g mask="url(#mask1_7615_14813)">
+            <rect x="975.746" y="593.65" width="124.153" height="123.035" fill="url(#paint2_radial_7615_14813)"/>
+        </g>
+        <path d="M964.024 526.272H974.175V536.326H964.024V526.272Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M973.616 605.138V596.203H964.584V605.138H973.616Z" stroke="#FDE047" stroke-opacity="0.5" stroke-width="1.1185" class="animated-line line-delay-2"/>
+        <path d="M964.024 609.517H974.175V619.571H964.024V609.517Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M951.623 540.147H961.773V550.201H951.623V540.147Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M951.624 567.896H961.774V577.95H951.624V567.896Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -6, -3; 2, 7; 0,0" dur="8s" begin="4.3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M939.223 581.769H949.373V591.823H939.223V581.769Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M939.223 595.644H949.373V605.698H939.223V595.644Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M926.822 581.769H936.973V591.424H926.822V581.769Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M914.422 595.644H924.572V605.698H914.422V595.644Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M914.422 609.517H924.572V619.571H914.422V609.517Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M902.021 540.147H912.171V550.201H902.021V540.147Z" fill="#FACC15" fill-opacity="0.3"/>
+        <g opacity="0.5">
+            <path d="M439.984 584.852C440.73 585.283 440.73 586.359 439.984 586.789L436.629 588.727C435.883 589.157 434.951 588.619 434.951 587.758L434.951 583.883C434.951 583.022 435.883 582.484 436.629 582.915L439.984 584.852Z" fill="#FDE047"/>
+            <path d="M401.955 589.176L407.548 581.906L417.055 585.821H435.51" stroke="#FDE047" stroke-width="2.237" class="animated-line line-delay-4"/>
+        </g>
+        <mask id="mask2_7615_14813" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="94" y="595" width="123" height="122">
+            <path d="M168.771 595.888H178.921V605.942H168.771V595.888Z" fill="#FACC15"/>
+            <path d="M143.969 595.888H154.119V605.942H143.969V595.888Z" fill="#FACC15"/>
+            <path d="M143.969 609.762H154.119V619.816H143.969V609.762Z" fill="#FACC15"/>
+            <path d="M119.168 609.762H129.318V619.816H119.168V609.762Z" fill="#FACC15"/>
+            <path d="M106.767 609.762H116.917V619.816H106.767V609.762Z" fill="#FACC15"/>
+        </mask>
+        <g mask="url(#mask2_7615_14813)">
+            <rect x="93.249" y="593.65" width="124.153" height="123.035" fill="url(#paint3_radial_7615_14813)"/>
+        </g>
+        <mask id="mask3_7615_14813" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="591" y="512" width="123" height="108">
+            <path d="M702.928 595.245H713.078V605.299H702.928V595.245Z" fill="#FACC15"/>
+            <path d="M653.326 595.245H663.477V605.299H653.326V595.245Z" fill="#FACC15"/>
+            <path d="M640.925 581.37H651.075V591.424H640.925V581.37Z" fill="#FACC15"/>
+            <path d="M628.524 595.245H638.675V605.299H628.524V595.245Z" fill="#FACC15"/>
+            <path d="M628.524 609.118H638.675V619.172H628.524V609.118Z" fill="#FACC15"/>
+            <path d="M616.124 539.748H626.274V549.802H616.124V539.748Z" fill="#FACC15"/>
+            <path d="M603.723 567.497H613.873V577.551H603.723V567.497Z" fill="#FACC15"/>
+            <path d="M603.723 609.118H613.873V619.172H603.723V609.118Z" fill="#FACC15"/>
+            <path d="M591.322 512H601.473V522.054H591.322V512Z" fill="#FACC15"/>
+            <path d="M591.322 609.118H601.473V619.172H591.322V609.118Z" fill="#FACC15"/>
+        </mask>
+        <g mask="url(#mask3_7615_14813)">
+            <rect x="590.981" y="497.46" width="124.153" height="123.035" fill="url(#paint4_radial_7615_14813)"/>
+        </g>
+        <path d="M104.202 591.263V582.328H95.1706V591.263H104.202Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-3"/>
+        <path d="M27.2578 621.612L56.8981 602.598H127.923L145.819 621.612H178.815L205.659 602.598H257.669" stroke="url(#paint5_linear_7615_14813)" stroke-width="2.237" class="animated-line line-delay-1"/>
+        <path d="M260.465 601.629C261.21 602.06 261.21 603.136 260.465 603.567L257.109 605.504C256.364 605.934 255.432 605.396 255.432 604.535V600.661C255.432 599.8 256.364 599.262 257.109 599.692L260.465 601.629Z" fill="#FDE047"/>
+        <path d="M141.404 549.641V540.706H132.372V549.641H141.404Z" stroke="#F87171" stroke-width="1.1185" class="animated-line line-delay-4"/>
+        <path d="M20.2042 595.643H30.3545V605.697H20.2042V595.643Z" fill="#FACC15" fill-opacity="0.8">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 2,-3; -4, 5; 1,-1; 0,0" dur="10s" begin="1.3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M-79 577.991L-49.3598 558.977H21.665L39.561 577.991H72.5567L99.4007 558.977H151.411" stroke="url(#paint6_linear_7615_14813)" stroke-width="2.237" class="animated-line line-delay-2"/>
+        <path d="M154.207 558.008C154.953 558.439 154.953 559.515 154.207 559.946L150.852 561.883C150.106 562.313 149.174 561.775 149.174 560.914V557.04C149.174 556.179 150.106 555.64 150.852 556.071L154.207 558.008Z" fill="#FDE047"/>
+        <g opacity="0.5">
+            <path d="M95.4863 516.624C96.232 517.054 96.232 518.13 95.4863 518.561L92.1308 520.498C91.3851 520.929 90.4531 520.39 90.4531 519.529L90.4531 515.655C90.4531 514.794 91.3851 514.256 92.1308 514.686L95.4863 516.624Z" fill="#FDE047"/>
+            <path d="M57.457 520.948L63.0495 513.678L72.5568 517.592H91.012" stroke="#FDE047" stroke-width="2.237" class="animated-line line-delay-3"/>
+        </g>
+        <path d="M922.771 320.909H912.621V310.855H922.771V320.909Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -4,-1; 2, 5; 3,-2; 0,0" dur="15s" begin="2.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M922.771 279.286H912.621V269.232H922.771V279.286Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 8, -4; -3, 6; 1, -2; 0,0" dur="5s" begin="4.4s" repeatCount="indefinite"/>
+        </path>
+        <path d="M925.581 283.666V292.602H934.613V283.666H925.581Z" stroke="#F87171" stroke-width="1.1185" class="animated-line line-delay-4"/>
+        <path d="M947.572 334.782H937.422V324.728H947.572V334.782Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -6, 5; 2, -8; 0,0" dur="7s" begin="1.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M947.572 279.286H937.422V269.232H947.572V279.286Z" fill="#EF4444" fill-opacity="0.5"/>
+        <path d="M959.974 265.413H949.823V255.359H959.974V265.413Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M972.373 293.161H962.223V283.107H972.373V293.161Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M984.774 348.657H974.624V338.603H984.774V348.657Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M975.183 311.414V320.35H984.215V311.414H975.183Z" stroke="#FDE047" stroke-opacity="0.5" stroke-width="1.1185" class="animated-line line-delay-1"/>
+        <path d="M984.774 279.286H974.624V269.232H984.774V279.286Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1009.58 279.286H999.425V269.232H1009.58V279.286Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 6,2; -3,-5; 1,4; 0,0" dur="12s" begin="1.9s" repeatCount="indefinite"/>
+        </path>
+        <path d="M1059.18 307.034H1049.03V296.98H1059.18V307.034Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1071.58 279.286H1061.43V269.232H1071.58V279.286Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1071.58 265.413H1061.43V255.359H1071.58V265.413Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 2, 7; -6, -3; 4, 5; 0,0" dur="6s" begin="0.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M1083.98 320.909H1073.83V310.855H1083.98V320.909Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1083.98 293.161H1073.83V283.107H1083.98V293.161Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1096.38 279.286H1086.23V269.232H1096.38V279.286Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1158.39 293.161H1148.24V283.107H1158.39V293.161Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1195.59 307.034H1185.44V296.98H1195.59V307.034Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -4, 6; 7, -2; -3,-3; 0,0" dur="8s" begin="3.7s" repeatCount="indefinite"/>
+        </path>
+        <path d="M1207.99 362.531H1197.84V352.477H1207.99V362.531Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1220.39 320.909H1210.24V310.855H1220.39V320.909Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M1257.59 334.782H1247.44V324.728H1257.59V334.782Z" fill="#FACC15" fill-opacity="0.3"/>
+        <mask id="mask4_7615_14813" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1223" y="158" width="122" height="122">
+            <path d="M1270.38 279.042H1260.23V268.988H1270.38V279.042Z" fill="#FACC15"/>
+        </mask>
+        <g mask="url(#mask4_7615_14813)">
+            <rect x="1345.9" y="281.279" width="124.153" height="123.035" transform="rotate(180 1345.9 281.279)" fill="url(#paint7_radial_7615_14813)"/>
+        </g>
+        <path d="M428.87 311.814V320.749H437.902V311.814H428.87Z" stroke="#F87171" stroke-width="1.1185" class="animated-line line-delay-2"/>
+        <path d="M438.461 279.685H428.311V269.631H438.461V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M450.861 293.56H440.711V283.506H450.861V293.56Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M463.262 335.182H453.111V325.128H463.262V335.182Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 4,-2; -5, 3; 0,0" dur="12s" begin="3.1s" repeatCount="indefinite"/>
+        </path>
+        <path d="M463.262 279.685H453.111V269.631H463.262V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M475.663 265.812H465.513V255.757H475.663V265.812Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M488.062 293.56H477.912V283.506H488.062V293.56Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -8, 4; 3, -7; 0,0" dur="6s" begin="0.1s" repeatCount="indefinite"/>
+        </path>
+        <path d="M500.464 349.056H490.313V339.002H500.464V349.056Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M500.464 321.309H490.313V311.255H500.464V321.309Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M500.464 279.685H490.313V269.631H500.464V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M525.266 279.685H515.115V269.631H525.266V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M565.279 297.938V306.873H574.311V297.938H565.279Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-3"/>
+        <path d="M587.27 279.685H577.12V269.631H587.27V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M587.27 265.812H577.12V255.757H587.27V265.812Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M599.672 321.309H589.521V311.255H599.672V321.309Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 3, 7; -5, -4; 0,0" dur="7s" begin="5.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M599.672 293.56H589.521V283.506H599.672V293.56Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -6,3; 4,-1; 1,5; 0,0" dur="11s" begin="4.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M726.487 311.814V320.749H735.519V311.814H726.487Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-4"/>
+        <path d="M736.078 293.56H725.928V283.506H736.078V293.56Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M760.879 279.685H750.729V269.631H760.879V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M773.28 335.182H763.13V325.128H773.28V335.182Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M773.28 279.685H763.13V269.631H773.28V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M773.28 265.812H763.13V255.757H773.28V265.812Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M785.684 265.812H775.533V255.757H785.684V265.812Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M800.894 353.435V362.37H809.926V353.435H800.894Z" stroke="#FDE047" stroke-opacity="0.5" stroke-width="1.1185" class="animated-line line-delay-1"/>
+        <path d="M810.485 279.685H800.335V269.631H810.485V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M822.886 321.309H812.735V311.255H822.886V321.309Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M822.886 293.56H812.735V283.506H822.886V293.56Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M835.286 349.056H825.136V339.002H835.286V349.056Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M825.695 270.19V279.125H834.727V270.19H825.695Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-2"/>
+        <path d="M835.286 265.812H825.136V255.757H835.286V265.812Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; -9, 4; 5, -6; 2, 3; 0,0" dur="6s" begin="1.1s" repeatCount="indefinite"/>
+        </path>
+        <path d="M847.686 335.182H837.536V325.128H847.686V335.182Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M847.686 307.433H837.536V297.379H847.686V307.433Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M860.088 293.56H849.938V283.506H860.088V293.56Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M860.088 279.685H849.938V269.631H860.088V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M872.488 293.56H862.338V283.506H872.488V293.56Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 4, 7; -8, -2; 3, 5; 0,0" dur="5s" begin="4.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M884.889 279.685H874.738V269.631H884.889V279.685Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M884.889 265.812H874.738V255.757H884.889V265.812Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M897.29 335.182H887.14V325.128H897.29V335.182Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 1,5; -3,-3; 4, 2; 0,0" dur="14s" begin="3.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M-5.83919 283.666V292.602H3.19263V283.666H-5.83919Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-3"/>
+        <path d="M6.56218 339.162V348.098H15.594V339.162H6.56218Z" stroke="#F87171" stroke-width="1.1185" class="animated-line line-delay-4"/>
+        <path d="M16.1532 320.909H6.00293V310.855H16.1532V320.909Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M6.56218 269.791V278.727H15.594V269.791H6.56218Z" stroke="#FDE047" stroke-opacity="0.5" stroke-width="1.1185" class="animated-line line-delay-1"/>
+        <path d="M40.955 279.286H30.8047V269.232H40.955V279.286Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M90.5595 307.034H80.4092V296.98H90.5595V307.034Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M102.96 279.286H92.8101V269.232H102.96V279.286Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M102.96 265.413H92.8101V255.359H102.96V265.413Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M115.361 320.909H105.21V310.855H115.361V320.909Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M115.361 293.161H105.21V283.107H115.361V293.161Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M127.762 279.286H117.611V269.232H127.762V279.286Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; -7, 1; 4, -8; 0,0" dur="4s" begin="1.7s" repeatCount="indefinite"/>
+        </path>
+        <path d="M177.364 279.286H167.214V269.232H177.364V279.286Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 5,1; -2,-6; 3, 4; 0,0" dur="11s" begin="1.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M180.174 283.666V292.602H189.205V283.666H180.174Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-2"/>
+        <path d="M202.165 279.286H192.015V269.232H202.165V279.286Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M202.165 265.413H192.015V255.359H202.165V265.413Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M214.566 334.782H204.416V324.728H214.566V334.782Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M226.967 307.034H216.816V296.98H226.967V307.034Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M239.367 362.531H229.217V352.477H239.367V362.531Z" fill="#FACC15" fill-opacity="0.3">
+             <animateTransform attributeName="transform" type="translate" values="0,0; 3, 8; -7, -2; 1, 4; 0,0" dur="8s" begin="3.9s" repeatCount="indefinite"/>
+        </path>
+        <path d="M251.768 320.909H241.617V310.855H251.768V320.909Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M251.768 293.161H241.617V283.107H251.768V293.161Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M288.97 334.782H278.819V324.728H288.97V334.782Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M316.584 353.036V361.972H325.615V353.036H316.584Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-3"/>
+        <path d="M338.575 320.909H328.425V310.855H338.575V320.909Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M338.575 293.161H328.425V283.107H338.575V293.161Z" fill="#FACC15" fill-opacity="0.3"/>
+        <mask id="mask5_7615_14813" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="216" y="158" width="123" height="122">
+            <path d="M263.733 279.042H253.583V268.988H263.733V279.042Z" fill="#FACC15"/>
+            <path d="M288.535 279.042H278.384V268.988H288.535V279.042Z" fill="#FACC15"/>
+            <path d="M288.534 265.168H278.383V255.114H288.534V265.168Z" fill="#FACC15"/>
+            <path d="M313.335 265.168H303.185V255.114H313.335V265.168Z" fill="#FACC15"/>
+            <path d="M325.737 265.168H315.586V255.114H325.737V265.168Z" fill="#FACC15"/>
+        </mask>
+        <g mask="url(#mask5_7615_14813)">
+            <rect x="339.254" y="281.279" width="124.153" height="123.035" transform="rotate(180 339.254 281.279)" fill="url(#paint8_radial_7615_14813)"/>
+        </g>
+        <path d="M350.976 348.657H340.825V338.603H350.976V348.657Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M341.384 269.791V278.727H350.416V269.791H341.384Z" stroke="#FDE047" stroke-opacity="0.5" stroke-width="1.1185" class="animated-line line-delay-4"/>
+        <path d="M350.976 265.413H340.825V255.359H350.976V265.413Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M363.377 334.782H353.227V324.728H363.377V334.782Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M363.376 307.034H353.226V296.98H363.376V307.034Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M375.777 293.161H365.627V283.107H375.777V293.161Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M375.777 279.286H365.627V269.232H375.777V279.286Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M388.178 293.161H378.027V283.107H388.178V293.161Z" fill="#FACC15" fill-opacity="0.3">
+            <animateTransform attributeName="transform" type="translate" values="0,0; 2,-4; -3, 5; 1,-1; 0,0" dur="13s" begin="2.3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M400.578 279.286H390.428V269.232H400.578V279.286Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M400.578 265.413H390.428V255.359H400.578V265.413Z" fill="#FACC15" fill-opacity="0.3"/>
+        <path d="M412.979 334.782H402.829V324.728H412.979V334.782Z" fill="#FACC15" fill-opacity="0.3"/>
+        <g opacity="0.5">
+            <path d="M875.016 290.078C874.27 289.647 874.27 288.571 875.016 288.14L878.371 286.203C879.117 285.773 880.049 286.311 880.049 287.172L880.049 291.046C880.049 291.907 879.117 292.445 878.371 292.015L875.016 290.078Z" fill="#FDE047"/>
+            <path d="M913.045 285.753L907.452 293.023L897.945 289.109H879.49" stroke="#FDE047" stroke-width="2.237" class="animated-line line-delay-2"/>
+        </g>
+        <mask id="mask6_7615_14813" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1098" y="158" width="123" height="122">
+            <path d="M1146.23 279.042H1136.08V268.988H1146.23V279.042Z" fill="#FACC15"/>
+            <path d="M1171.03 279.042H1160.88V268.988H1171.03V279.042Z" fill="#FACC15"/>
+            <path d="M1171.03 265.168H1160.88V255.114H1171.03V265.168Z" fill="#FACC15"/>
+            <path d="M1195.83 265.168H1185.68V255.114H1195.83V265.168Z" fill="#FACC15"/>
+            <path d="M1208.23 265.168H1198.08V255.114H1208.23V265.168Z" fill="#FACC15"/>
+        </mask>
+        <g mask="url(#mask6_7615_14813)">
+            <rect x="1221.75" y="281.279" width="124.153" height="123.035" transform="rotate(180 1221.75 281.279)" fill="url(#paint9_radial_7615_14813)"/>
+        </g>
+        <mask id="mask7_7615_14813" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="601" y="255" width="123" height="108">
+            <path d="M612.072 279.685H601.922V269.631H612.072V279.685Z" fill="#FACC15"/>
+            <path d="M661.674 279.685H651.523V269.631H661.674V279.685Z" fill="#FACC15"/>
+            <path d="M674.075 293.56H663.925V283.506H674.075V293.56Z" fill="#FACC15"/>
+            <path d="M686.476 279.685H676.325V269.631H686.476V279.685Z" fill="#FACC15"/>
+            <path d="M686.476 265.812H676.325V255.757H686.476V265.812Z" fill="#FACC15"/>
+            <path d="M698.876 335.182H688.726V325.128H698.876V335.182Z" fill="#FACC15"/>
+            <path d="M711.277 307.433H701.127V297.379H711.277V307.433Z" fill="#FACC15"/>
+            <path d="M711.277 265.812H701.127V255.757H711.277V265.812Z" fill="#FACC15"/>
+            <path d="M723.678 362.93H713.527V352.876H723.678V362.93Z" fill="#FACC15"/>
+            <path d="M723.678 265.812H713.527V255.757H723.678V265.812Z" fill="#FACC15"/>
+        </mask>
+        <g mask="url(#mask7_7615_14813)">
+            <rect x="724.019" y="377.47" width="124.153" height="123.035" transform="rotate(180 724.019 377.47)" fill="url(#paint10_radial_7615_14813)"/>
+        </g>
+        <path d="M1210.8 283.666V292.602H1219.83V283.666H1210.8Z" stroke="#FDE047" stroke-width="1.1185" class="animated-line line-delay-3"/>
+        <path d="M1287.74 253.318L1258.1 272.332H1187.08L1169.18 253.318H1136.19L1109.34 272.332H1057.33" stroke="url(#paint11_linear_7615_14813)" stroke-width="2.237" class="animated-line line-delay-4"/>
+        <path d="M1054.54 273.3C1053.79 272.87 1053.79 271.794 1054.54 271.363L1057.89 269.426C1058.64 268.995 1059.57 269.533 1059.57 270.394V274.269C1059.57 275.13 1058.64 275.668 1057.89 275.238L1054.54 273.3Z" fill="#FDE047"/>
+        <path d="M1173.6 325.288V334.224H1182.63V325.288H1173.6Z" stroke="#F87171" stroke-width="1.1185" class="animated-line line-delay-1"/>
+        <path d="M1394 296.939L1364.36 315.953H1293.34L1275.44 296.939H1242.44L1215.6 315.953H1163.59" stroke="url(#paint12_linear_7615_14813)" stroke-width="2.237" class="animated-line line-delay-2"/>
+        <path d="M1160.79 316.921C1160.05 316.491 1160.05 315.415 1160.79 314.984L1164.15 313.047C1164.89 312.616 1165.83 313.154 1165.83 314.015V317.89C1165.83 318.751 1164.89 319.289 1164.15 318.859L1160.79 316.921Z" fill="#FDE047"/>
+        <g opacity="0.5">
+            <path d="M1219.51 358.306C1218.77 357.876 1218.77 356.799 1219.51 356.369L1222.87 354.432C1223.61 354.001 1224.55 354.539 1224.55 355.4L1224.55 359.275C1224.55 360.136 1223.61 360.674 1222.87 360.243L1219.51 358.306Z" fill="#FDE047"/>
+            <path d="M1257.54 353.982L1251.95 361.252L1242.44 357.337H1223.99" stroke="#FDE047" stroke-width="2.237" class="animated-line line-delay-3"/>
+        </g>
+    </g>
+    <g opacity="0.5" filter="url(#filter1_f_7615_14813)">
+        <path d="M323.492 792.746C323.492 886.771 268.024 841 174 841C79.9756 841 -235 905.524 -235 811.5C-235 717.476 312.476 246 406.5 246C500.524 246 323.492 698.722 323.492 792.746Z" fill="#FACC15"/>
+    </g>
+</g>
+<path d="M0.5 286C0.5 270.812 12.8122 258.5 28 258.5H1254C1269.19 258.5 1281.5 270.812 1281.5 286V590C1281.5 605.188 1269.19 617.5 1254 617.5H28C12.8122 617.5 0.5 605.188 0.5 590V286Z" stroke="url(#paint13_linear_7615_14813)" stroke-opacity="0.3"/>
+</svg>
