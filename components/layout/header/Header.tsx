@@ -40,17 +40,16 @@ export const Header = () => {
         <NavigationMenu className="z-50 hidden md:block" delayDuration={0}>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <Link href={ROUTES.HOME}>
-                <NavigationMenuLink
-                  className={cn(
-                    navigationMenuTriggerStyle(),
-                    hoverGradientText,
-                    "bg-transparent"
-                  )}
-                >
-                  Home
-                </NavigationMenuLink>
-              </Link>
+              <NavigationMenuLink
+                href={ROUTES.HOME}
+                className={cn(
+                  navigationMenuTriggerStyle(),
+                  hoverGradientText,
+                  "bg-transparent"
+                )}
+              >
+                Home
+              </NavigationMenuLink>
             </NavigationMenuItem>
 
             <NavigationMenuItem>
@@ -64,7 +63,13 @@ export const Header = () => {
                 Features
               </NavigationMenuTrigger>
               <NavigationMenuContent>
-                <ul className="grid gap-3 p-8 grid-cols-1 md:grid-cols-2 !outline-none lg:grid-cols-3 w-[75vh]  rounded-3xl">
+                <ul
+                  className={cn(
+                    "grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
+                    "p-8 !outline-none rounded-3xl",
+                    "w-[50vw] lg:w-[50vw]"
+                  )}
+                >
                   {navItems.map((item) => (
                     <ListItem
                       key={item.title}
@@ -86,17 +91,17 @@ export const Header = () => {
               { label: "Contact", href: ROUTES.CONTACT },
             ].map(({ label, href }) => (
               <NavigationMenuItem key={label} className={disabledLinkClass}>
-                <Link href={href} className="pointer-events-none">
-                  <NavigationMenuLink
-                    className={cn(
-                      navigationMenuTriggerStyle(),
-                      hoverGradientText,
-                      "bg-transparent"
-                    )}
-                  >
-                    {label}
-                  </NavigationMenuLink>
-                </Link>
+                <NavigationMenuLink
+                  href={href}
+                  className={cn(
+                    navigationMenuTriggerStyle(),
+                    hoverGradientText,
+                    "bg-transparent",
+                    "pointer-events-none"
+                  )}
+                >
+                  {label}
+                </NavigationMenuLink>
               </NavigationMenuItem>
             ))}
           </NavigationMenuList>
