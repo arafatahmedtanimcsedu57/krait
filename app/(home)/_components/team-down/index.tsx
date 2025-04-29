@@ -22,7 +22,7 @@ const itemVariants = {
   exit: { opacity: 0, y: -10, scale: 0.95, transition: { duration: 0.2 } },
 };
 
-export const Section05Alternatives = () => {
+export const TeamDown = () => {
   const initialCardsCount = 4;
   const [isExpanded, setIsExpanded] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);

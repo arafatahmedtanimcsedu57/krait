@@ -2,7 +2,7 @@ import { HeroSection } from "./_components/HeroSection";
 import { Intro } from "./_components/intro";
 import { CentralSystem } from "./_components/central-system";
 import { FlowAnalysis } from "./_components/FlowAnalysis";
-import { Section05Alternatives } from "./_components/section-05-alternatives";
+import { TeamDown } from "./_components/team-down";
 import { Section06Summarized } from "./_components/section-06-summarized";
 import { Section07Integrations } from "./_components/section-07-integrations";
 import { Section09Graphic } from "./_components/section-09-graphic";
@@ -20,7 +20,7 @@ export default function Home() {
 
       <FlowAnalysis />
 
-      <Section05Alternatives />
+      <TeamDown />
 
       {/*<Section06Summarized />
 
