@@ -24,19 +24,19 @@ export const CardItem = ({ index, card }: CardItemProps) => {
   return (
     <Card
       key={index}
-      className="shadow-sm border-0 bg-[#18181B] text-foreground mx-auto w-full rounded-3xl"
+      className="shadow-sm border-0 bg-[#18181B] text-foreground mx-auto w-full rounded-3xl max-w-[450px]"
     >
       <CardHeader>
-        <CardTitle className="mb-2 text-2xl font-semibold text-white text-start">
+        <CardTitle className="mb-2 text-2xl font-semibold text-white text-start line-clamp-1">
           {card.title}
         </CardTitle>
-        <CardDescription className="text-start text-[#F4F4F5] h-8">
+        <CardDescription className="text-start text-[#F4F4F5]  line-clamp-2">
           {card.description}
         </CardDescription>
       </CardHeader>
 
       <Separator
-        className="mb-6 h-[1px]"
+        className="mb-6 h-[1px] animate-gradient"
         style={{
           background:
             "linear-gradient(to right, rgba(45,45,45,1) 0%, rgba(255,255,255,0.37) 46%, rgba(45,45,45,1) 100%)",
@@ -44,9 +44,9 @@ export const CardItem = ({ index, card }: CardItemProps) => {
       />
 
       <CardFooter>
-        <div className="flex items-center space-x-4 text-sm">
+        <div className="flex flex-wrap items-center gap-4 text-sm">
           {card?.alternatives?.length ? (
-            <p className="text-xl font-medium text-yellow-400 font-justme">
+            <p className="text-lg font-medium text-yellow-400 font-justme">
               Alternative of
             </p>
           ) : null}
