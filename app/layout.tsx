@@ -35,7 +35,7 @@ export default function RootLayout({
             <div className="w-full mx-auto my-4">
               <Header />
               <main className="flex-1">{children}</main>
-              <FooterBanner />
+              {/* <FooterBanner /> */}
             </div>
           </div>
         </ThemeProvider>

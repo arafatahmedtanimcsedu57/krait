@@ -1,6 +1,6 @@
 import { HeroSection } from "./_components/HeroSection";
-import { Section02 } from "./_components/section-02";
-import { Section03 } from "./_components/section-03";
+import { Intro } from "./_components/intro";
+import { CentralSystem } from "./_components/central-system";
 import { Section04 } from "./_components/section-04";
 import { Section05Alternatives } from "./_components/section-05-alternatives";
 import { Section06Summarized } from "./_components/section-06-summarized";
@@ -14,11 +14,11 @@ export default function Home() {
       {/* Hero Section */}
       <HeroSection />
 
-      <Section02 />
+      <Intro />
 
-      <Section03 />
+      <CentralSystem />
 
-      <Section04 />
+      {/* <Section04 />
 
       <Section05Alternatives />
 
@@ -28,7 +28,7 @@ export default function Home() {
 
       <Section09Graphic />
 
-      <Section10Articles />
+      <Section10Articles /> */}
     </div>
   );
 }
