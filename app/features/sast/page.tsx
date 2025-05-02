@@ -64,7 +64,7 @@ export default function FeatureSast() {
       {/* Protect */}
       <div className="relative rounded-3xl  min-h-[900px] flex items-center justify-center overflow-hidden">
         <Image
-          src="/assets/stat/glow.svg"
+          src="/glow.svg"
           alt="gold-plate"
           fill
           className="object-fit z-[0] rounded-3xl"
@@ -72,7 +72,7 @@ export default function FeatureSast() {
         />
         <div className="relative rounded-3xl min-h-[400px] flex items-center justify-center overflow-hidden">
           <Image
-            src="/assets/stat/gold-plate.svg"
+            src="/gold-plate.svg"
             alt="gold-plate"
             fill
             className="object-cover z-[1] rounded-3xl"
