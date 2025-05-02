@@ -1,9 +1,4 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Code, Shield } from "lucide-react";
-
-import GoldPlateSVG from "@/public/assets/stat/gold-plate.svg";
 import { BookDemo } from "@/components/shared/buttons/BookDemo";
 import { TryFree } from "@/components/shared/buttons/TryFree";
 
