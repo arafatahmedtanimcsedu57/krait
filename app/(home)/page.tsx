@@ -18,7 +18,7 @@ export default function Home() {
 
 			<CentralSystem />
 
-			<FlowAnalysis />
+			{/* <FlowAnalysis />
 
 			<TeamDown />
 
@@ -26,7 +26,7 @@ export default function Home() {
 
 			<Section07Integrations />
 
-			<Section09Graphic />
+			<Section09Graphic /> */}
 
 			{/*<Section10Articles /> */}
 		</div>
