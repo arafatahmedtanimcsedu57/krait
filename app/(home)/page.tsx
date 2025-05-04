@@ -1,6 +1,6 @@
 import { HeroSection } from './_components/HeroSection';
 import { Intro } from './_components/intro';
-import { CentralSystem } from './_components/central-system';
+import { CentralSystem } from './_components/CentralSystem';
 import { FlowAnalysis } from './_components/FlowAnalysis';
 import { TeamDown } from './_components/team-down';
 import { Section06Summarized } from './_components/section-06-summarized';
@@ -18,17 +18,17 @@ export default function Home() {
 
 			<CentralSystem />
 
-			{/* <FlowAnalysis />
+			<FlowAnalysis />
 
 			<TeamDown />
 
-			<Section06Summarized />
+			{/*<Section06Summarized />
 
 			<Section07Integrations />
 
-			<Section09Graphic /> */}
+			<Section09Graphic />
 
-			{/*<Section10Articles /> */}
+			<Section10Articles /> */}
 		</div>
 	);
 }

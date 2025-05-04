@@ -25,8 +25,8 @@ export const baseFadeInUp = {
 };
 
 export const hoverScaleSpring = {
-	whileHover: { scale: 1.01 },
-	transition: { type: 'spring', stiffness: 150 },
+	whileHover: { scale: 1.05 },
+	transition: { type: 'spring', stiffness: 200 },
 };
 
 // Configuration for stagger effect trigger
@@ -40,6 +40,6 @@ export const staggerConfig = {
 export const staggerContainerVariants = {
 	hidden: {}, // Initial state for the container (can be empty if children handle animation)
 	visible: {
-		transition: { staggerChildren: 0.1, delayChildren: 0.1 },
+		transition: { staggerChildren: 0.4, delayChildren: 0.1 },
 	},
 };

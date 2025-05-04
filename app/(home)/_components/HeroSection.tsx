@@ -6,16 +6,16 @@ import { motion } from 'framer-motion';
 import { BookDemo } from '@/components/shared/buttons/BookDemo';
 import { TryFree } from '@/components/shared/buttons/TryFree';
 
-import {
-	fadeIn,
-	fadeSlide,
-	hoverScaleSpring,
-	staggerConfig,
-	staggerContainerVariants,
-} from '@/components/motion/motionConfig';
+import { fadeInUp } from '@/components/motion/reveal-on-hover';
+import Stagger from '@/components/motion/Stagger';
+import Branding from '@/components/shared/special-text/Branding';
+import Paragraph from '@/components/shared/special-text/Paragraph';
+
+import { cn } from '@/lib/utils';
+import { SPACE_STYLE } from '@/constant/space-style';
 
 export const HeroSection = () => (
-	<section className="relative py-16">
+	<section className={cn('relative', SPACE_STYLE.MARGIN.EXTRA_LARGE.VERTICAL)}>
 		{/* Background Decoration */}
 		<Image
 			src="/assets/home/section-01/bg-lines.svg"
@@ -26,46 +26,65 @@ export const HeroSection = () => (
 			priority
 		/>
 
-		<div className="container mx-auto grid gap-16 lg:grid-cols-2 text-white relative mt-16">
+		<div
+			className={cn(
+				'container mx-auto relative',
+				'grid lg:grid-cols-2',
+				SPACE_STYLE.GAP.LARGE,
+			)}
+		>
 			{/* Text Column */}
-			<motion.div
-				{...staggerConfig}
-				variants={staggerContainerVariants}
-				className="flex flex-col justify-center gap-6 px-4"
+			<Stagger
+				className={cn(
+					'flex flex-col justify-center',
+					SPACE_STYLE.PADDING.MID.HORIZONTAL,
+					SPACE_STYLE.GAP.MID,
+				)}
 			>
-				<motion.h1
-					{...fadeSlide}
-					{...hoverScaleSpring}
-					className="text-4xl md:text-6xl font-medium"
-				>
-					Understand, Prioritize &amp; Fix Security Issues Faster
-				</motion.h1>
-
-				<motion.p
-					{...fadeSlide}
-					{...hoverScaleSpring}
-					className="text-base md:text-lg leading-loose mb-6"
-				>
-					Protect your software and API endpoints with AI-powered scanning, API
-					Inventory, and flow mapping. DevSecOps made simple and secure.
-				</motion.p>
+				<Branding />
+				<Paragraph text="Protect your software and API endpoints with AI-powered scanning, API Inventory, and flow mapping. DevSecOps made simple and secure." />
 
 				<motion.div
-					{...fadeSlide}
-					className="flex flex-col sm:flex-row gap-4 mt-8"
+					variants={fadeInUp}
+					className={cn('flex flex-col sm:flex-row', SPACE_STYLE.GAP.MID)}
 				>
 					<BookDemo />
 					<TryFree />
 				</motion.div>
-			</motion.div>
+			</Stagger>
 
 			{/* Image Column */}
-			<motion.div {...fadeIn}>
-				<div className="relative w-full h-full flex items-center justify-center isolate px-4">
-					{/* Blur Glow Effects */}
-					<div className="absolute top-0 right-0 w-1/2 h-1/2 rounded-full bg-[#fa8d34] blur-[10rem] pointer-events-none z-[-1]" />
-					<div className="absolute bottom-0 left-0 w-1/2 h-1/2 rounded-full bg-[#ffbb00] blur-[8rem] pointer-events-none z-[-1]" />
+			<Stagger
+				className={cn(
+					'relative isolate',
+					'w-full h-full',
+					'flex items-center justify-center ',
+					SPACE_STYLE.PADDING.MID.HORIZONTAL,
+				)}
+			>
+				{/* Blur Glow Effects */}
+				<motion.div
+					variants={fadeInUp}
+					className={cn(
+						'absolute z-[-1]',
+						'top-0 right-0',
+						'w-1/2 h-1/2',
+						'bg-[#fa8d34] blur-[10rem]',
+						'rounded-full pointer-events-none',
+					)}
+				/>
+				<motion.div
+					variants={fadeInUp}
+					className={cn(
+						'absolute z-[-1]',
+						'bottom-0 left-0',
+						'w-1/2 h-1/2',
+						'bg-[#ffbb00] blur-[8rem]',
+						'rounded-full pointer-events-none',
+					)}
+				/>
 
+				<motion.div variants={fadeInUp} className="relative">
 					<Image
 						src="/assets/home/section-01/bg-content.svg"
 						alt="Security workflow visual"
@@ -75,8 +94,8 @@ export const HeroSection = () => (
 						sizes="(max-width: 1024px) 100vw, 50vw"
 						priority
 					/>
-				</div>
-			</motion.div>
+				</motion.div>
+			</Stagger>
 		</div>
 	</section>
 );
