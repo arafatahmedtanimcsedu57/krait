@@ -1,72 +1,84 @@
+import { fadeInUp } from '@/components/motion/reveal-on-hover';
+import Stagger from '@/components/motion/Stagger';
+import Paragraph from '@/components/shared/special-text/Paragraph';
 import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardFooter,
-} from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
+	Card,
+	CardHeader,
+	CardTitle,
+	CardDescription,
+	CardFooter,
+} from '@/components/ui/card';
+import { Separator } from '@/components/ui/separator';
+import { SPACE_STYLE } from '@/constant/space-style';
+import { cn } from '@/lib/utils';
+import { motion } from 'framer-motion';
 
 interface CardItemProps {
-  index: number;
-  card: {
-    title: string;
-    description: string;
-    alternatives?: Array<{
-      logo: string;
-      alt: string;
-      name: string;
-    }>;
-  };
+	index: number;
+	card: {
+		title: string;
+		description: string;
+		alternatives?: Array<{
+			logo: string;
+			alt: string;
+			name: string;
+		}>;
+	};
 }
 
 export const CardItem = ({ index, card }: CardItemProps) => {
-  return (
-    <Card
-      key={index}
-      className="shadow-sm border-0 bg-[#18181B] text-foreground mx-auto w-full rounded-3xl max-w-[450px]"
-    >
-      <CardHeader>
-        <CardTitle className="mb-2 text-2xl font-semibold text-white text-start line-clamp-1">
-          {card.title}
-        </CardTitle>
-        <CardDescription className="text-start text-[#F4F4F5]  line-clamp-2">
-          {card.description}
-        </CardDescription>
-      </CardHeader>
+	return (
+		<Card
+			key={index}
+			className="border-0 bg-slate-700/30 text-foreground mx-auto w-full lg:rounded-3xl rounded-xl max-w-[450px]"
+		>
+			<CardHeader>
+				<CardTitle
+					className={cn(
+						'font-semibold text-white text-start line-clamp-1',
+						SPACE_STYLE.MARGIN.SMALL.BOTTOM,
+					)}
+				>
+					{card.title}
+				</CardTitle>
+				<CardDescription className="text-start line-clamp-2">
+					{card.description}
+				</CardDescription>
+			</CardHeader>
 
-      <Separator
-        className="mb-6 h-[1px] animate-gradient"
-        style={{
-          background:
-            "linear-gradient(to right, rgba(45,45,45,1) 0%, rgba(255,255,255,0.37) 46%, rgba(45,45,45,1) 100%)",
-        }}
-      />
+			<Separator className="mb-6 h-[1px] bg-gradient-to-tl from-black via-yellow-500 to-black" />
 
-      <CardFooter>
-        <div className="flex flex-wrap items-center gap-4 text-sm">
-          {card?.alternatives?.length ? (
-            <p className="text-lg font-medium text-yellow-400 font-justme">
-              Alternative of
-            </p>
-          ) : null}
-          <div className="flex flex-wrap items-center gap-2">
-            {card?.alternatives?.map((alt, altIndex) => (
-              <div
-                key={altIndex}
-                className="rounded-xl p-[6px] bg-zinc-700 flex items-center gap-2 text-[#F4F4F5]"
-              >
-                <img
-                  src={alt.logo}
-                  alt={alt.alt}
-                  className="object-scale-down w-6 h-6 rounded-full"
-                />
-                <h4>{alt.name}</h4>
-              </div>
-            ))}
-          </div>
-        </div>
-      </CardFooter>
-    </Card>
-  );
+			<CardFooter>
+				<Stagger className="flex flex-wrap items-center gap-4">
+					{card?.alternatives?.length ? (
+						<Paragraph className="text-yellow-500" text="Alternative of" />
+					) : null}
+					<motion.div
+						variants={fadeInUp}
+						className={cn('flex flex-wrap items-center', SPACE_STYLE.GAP.SMALL)}
+					>
+						{card?.alternatives?.map((alt, altIndex) => (
+							<div
+								key={altIndex}
+								className={cn(
+									'rounded-full flex items-center bg-slate-400/30',
+									'ps-1',
+									'pe-4',
+									'py-1',
+									SPACE_STYLE.GAP.SMALL,
+								)}
+							>
+								<img
+									src={alt.logo}
+									alt={alt.alt}
+									className="object-scale-down w-6 h-6 rounded-full"
+								/>
+								<p>{alt.name}</p>
+							</div>
+						))}
+					</motion.div>
+				</Stagger>
+			</CardFooter>
+		</Card>
+	);
 };

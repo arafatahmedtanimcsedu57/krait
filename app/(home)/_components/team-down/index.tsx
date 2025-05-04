@@ -10,25 +10,15 @@ import { CardItem } from './components/CardItem';
 import { cards } from './constants';
 import { motion } from 'framer-motion';
 import {
-	fadeSlide,
-	hoverScaleSpring,
 	staggerConfig,
 	staggerContainerVariants,
 } from '@/components/motion/motionConfig';
 import { fadeInUp } from '@/components/motion/reveal-on-hover';
-
-const containerVariants = {
-	hidden: {},
-	visible: {
-		transition: { staggerChildren: 0.12, delayChildren: 0.2 },
-	},
-};
-
-const itemVariants = {
-	hidden: { opacity: 0, y: 20, scale: 0.95 },
-	visible: { opacity: 1, y: 0, scale: 1 },
-	exit: { opacity: 0, y: -10, scale: 0.95, transition: { duration: 0.2 } },
-};
+import { cn } from '@/lib/utils';
+import { SPACE_STYLE } from '@/constant/space-style';
+import Stagger from '@/components/motion/Stagger';
+import Paragraph from '@/components/shared/special-text/Paragraph';
+import Headline from '@/components/shared/special-text/Headline';
 
 export const TeamDown = () => {
 	const initialCardsCount = 4;
@@ -45,38 +35,38 @@ export const TeamDown = () => {
 	};
 
 	return (
-		<section ref={sectionRef} className="my-16">
-			<motion.div
-				{...staggerConfig}
-				variants={staggerContainerVariants}
-				className="container mx-auto flex flex-col gap-16 px-4 w-fit"
+		<section className={cn(SPACE_STYLE.MARGIN.EXTRA_LARGE.VERTICAL)}>
+			<Stagger
+				className={cn(
+					'container mx-auto',
+					'flex flex-col',
+					SPACE_STYLE.GAP.MID,
+				)}
 			>
-				<motion.div variants={fadeInUp}>
-					<SectionTitle title="Security Tools Shouldn’t Slow Your Dev Team Down" />
-				</motion.div>
+				<SectionTitle title="Security Tools Shouldn’t Slow Your Dev Team Down" />
 
-				<motion.div
-					{...staggerConfig}
-					variants={staggerContainerVariants}
-					className="flex flex-col gap-2"
-				>
-					<motion.p variants={fadeInUp} className="text-center">
-						But juggling scanners, triage, fixes, and reports? That’s a
-						full-time job
-					</motion.p>
+				<Stagger className={cn('flex flex-col', SPACE_STYLE.GAP.SMALL)}>
+					<Paragraph
+						className="text-center"
+						text="But juggling scanners, triage, fixes, and reports? That’s a
+						full-time job"
+					/>
 
-					<motion.h3
-						variants={fadeInUp}
-						className=" text-2xl text-yellow-400 text-center"
-					>
-						<span className="font-bold">Krait makes it automatic</span>
-					</motion.h3>
-				</motion.div>
+					<Headline
+						className="text-yellow-500 text-center"
+						text="Krait makes it automatic"
+					/>
+				</Stagger>
+			</Stagger>
 
-				<motion.div
-					{...staggerConfig}
-					variants={staggerContainerVariants}
-					className="grid grid-cols-1 gap-3 md:grid-cols-2"
+			<div className="container mx-auto">
+				<Stagger
+					className={cn(
+						'w-fit mx-auto  relative',
+						'grid grid-cols-1 md:grid-cols-2',
+						SPACE_STYLE.MARGIN.BIG.VERTICAL,
+						SPACE_STYLE.GAP.SMALL,
+					)}
 				>
 					<>
 						{visibleCards.map((card, idx) => (
@@ -85,18 +75,23 @@ export const TeamDown = () => {
 					</>
 
 					{cards.length > initialCardsCount && (
-						<div className="flex justify-center mt-4 md:col-span-2">
+						<div className="flex justify-center items-center container  absolute bottom-0 md:col-span-2 bg-gradient-to-t from-black to-transparent h-48">
 							<Button
 								variant="outline"
 								onClick={handleToggle}
-								className="px-8 py-4 shadow-lg"
+								className={cn(
+									'border border-yellow-400',
+									'text-yellow-400 font-bold text-base',
+									'bg-transparent',
+									'hover:brightness-125 hover:bg-transparent hover:text-yellow-400 transition',
+								)}
 							>
 								{isExpanded ? 'Hide' : 'Show More'}
 							</Button>
 						</div>
 					)}
-				</motion.div>
-			</motion.div>
+				</Stagger>
+			</div>
 		</section>
 	);
 };
