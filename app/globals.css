@@ -96,3 +96,10 @@ body {
 object[type='image/svg+xml'] {
 	background-color: transparent !important;
 }
+
+.gg {
+	overflow: hidden;
+	outline-color: rgba(112, 112, 112, 0.548);
+	outline-style: solid;
+	outline-width: 16px;
+}
